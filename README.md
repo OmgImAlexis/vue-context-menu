@@ -5,7 +5,7 @@
 Demo: https://vmaimone.github.io/vue-context-menu
 
 # Example Usage
-```
+```vue
 
 <div @contextmenu.prevent="$refs.ctxMenu.open">
   ...
@@ -30,18 +30,18 @@ export default {
 
 # Build Setup
 
-```
+```console
 # install dependencies
-npm install
+$ npm install
 
 # compiles src/*.vue and builds a bundle for static linking
-npm run build
+$ npm run build
 
 # runs Karma with test/*.js
-npm run test
+$ npm run test
 
 # runs webpack-dev-server
-npm run dev
+$ npm run dev
 ```
 ## Vue 1.x Support
 Haven't migrated to Vue 2.x yet?
